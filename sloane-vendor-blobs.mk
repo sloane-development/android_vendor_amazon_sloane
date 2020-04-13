@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
  vendor/amazon/sloane/proprietary/etc/firmware/dvb-fe-xc5000-1.6.114.fw:system/etc/firmware/dvb-fe-xc5000-1.6.114.fw \
  vendor/amazon/sloane/proprietary/etc/leds.xml:system/etc/leds.xml \
  vendor/amazon/sloane/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
- vendor/amazon/sloane/proprietary/etc/permissions/android.hardware.hdmi.cec.xml:system/etc/permissions/android.hardware.hdmi.cec.xml \
  vendor/amazon/sloane/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
  vendor/amazon/sloane/proprietary/etc/throttle.sh:system/etc/throttle.sh \
  vendor/amazon/sloane/proprietary/etc/chronos.conf:system/etc/chronos.conf \
@@ -99,6 +98,7 @@ PRODUCT_COPY_FILES += \
  vendor/amazon/sloane/proprietary/etc/vold.fstab.nand:system/etc/vold.fstab.nand \
  vendor/amazon/sloane/proprietary/etc/vold.fstab.fat.nand:system/etc/vold.fstab.fat.nand \
  vendor/amazon/sloane/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+ vendor/amazon/sloane/proprietary/lib/drm/libdrmplayreadyplugin.so:system/lib/drm/libdrmplayreadyplugin.so \
  vendor/amazon/sloane/proprietary/lib/hw/amzn_dha.mt8173.so:system/lib/hw/amzn_dha.mt8173.so \
  vendor/amazon/sloane/proprietary/lib/hw/amazon_serial.mt8173.so:system/lib/hw/amazon_serial.mt8173.so \
  vendor/amazon/sloane/proprietary/lib/hw/amzn_drmprov.mt8173.so:system/lib/hw/amzn_drmprov.mt8173.so \
