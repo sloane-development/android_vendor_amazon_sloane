@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/amazon/sloane/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/amazon/sloane/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
-    vendor/amazon/sloane/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
     vendor/amazon/sloane/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
@@ -201,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
     vendor/amazon/sloane/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
-    vendor/amazon/sloane/proprietary/lib64/libaudiospdif.so:system/lib64/libaudiospdif.so \
     vendor/amazon/sloane/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
