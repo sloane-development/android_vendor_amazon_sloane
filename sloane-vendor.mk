@@ -122,12 +122,14 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/amazon/sloane/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+    vendor/amazon/sloane/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/amazon/sloane/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/amazon/sloane/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/sloane/proprietary/lib/libdeviceinfoservice.so:system/lib/libdeviceinfoservice.so \
     vendor/amazon/sloane/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/amazon/sloane/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/amazon/sloane/proprietary/lib/libdrmplayreadydecryptor.so:system/lib/libdrmplayreadydecryptor.so \
+    vendor/amazon/sloane/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/amazon/sloane/proprietary/lib/libfoundation-gfx-native-tv.so:system/lib/libfoundation-gfx-native-tv.so \
     vendor/amazon/sloane/proprietary/lib/libgccdemangle.so:system/lib/libgccdemangle.so \
     vendor/amazon/sloane/proprietary/lib/libged.so:system/lib/libged.so \
@@ -149,12 +151,15 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/amazon/sloane/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
+    vendor/amazon/sloane/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/amazon/sloane/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
+    vendor/amazon/sloane/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/amazon/sloane/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/amazon/sloane/proprietary/lib/libstagefright_hdcprx.so:system/lib/libstagefright_hdcprx.so \
     vendor/amazon/sloane/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/amazon/sloane/proprietary/lib/libthermalservice.so:system/lib/libthermalservice.so \
     vendor/amazon/sloane/proprietary/lib/libtrapz.so:system/lib/libtrapz.so \
+    vendor/amazon/sloane/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/amazon/sloane/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/amazon/sloane/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     vendor/amazon/sloane/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
@@ -187,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_crypto.so:system/lib64/lib_uree_mtk_crypto.so \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_modular_drm.so:system/lib64/lib_uree_mtk_modular_drm.so \
     vendor/amazon/sloane/proprietary/lib64/lib_uree_mtk_vdec_secure_al.so:system/lib64/lib_uree_mtk_vdec_secure_al.so \
+    vendor/amazon/sloane/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/amazon/sloane/proprietary/lib64/libamazon_remotes.so:system/lib64/libamazon_remotes.so \
     vendor/amazon/sloane/proprietary/lib64/libamazondisplayservice.so:system/lib64/libamazondisplayservice.so \
     vendor/amazon/sloane/proprietary/lib64/libamazoninputservice.so:system/lib64/libamazoninputservice.so \
@@ -202,16 +208,19 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
     vendor/amazon/sloane/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
+    vendor/amazon/sloane/proprietary/lib64/libcommon_time_client.so:system/lib64/libcommon_time_client.so \
     vendor/amazon/sloane/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     vendor/amazon/sloane/proprietary/lib64/libcvsd_mtk.so:system/lib64/libcvsd_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libdeviceinfoservice.so:system/lib64/libdeviceinfoservice.so \
     vendor/amazon/sloane/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/amazon/sloane/proprietary/lib64/libdrmmtkutil.so:system/lib64/libdrmmtkutil.so \
+    vendor/amazon/sloane/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/amazon/sloane/proprietary/lib64/libgccdemangle.so:system/lib64/libgccdemangle.so \
     vendor/amazon/sloane/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/amazon/sloane/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
     vendor/amazon/sloane/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
     vendor/amazon/sloane/proprietary/lib64/libhdmiservice.so:system/lib64/libhdmiservice.so \
+    vendor/amazon/sloane/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
     vendor/amazon/sloane/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
     vendor/amazon/sloane/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/amazon/sloane/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
@@ -226,16 +235,20 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
     vendor/amazon/sloane/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
+    vendor/amazon/sloane/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
     vendor/amazon/sloane/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
+    vendor/amazon/sloane/proprietary/lib64/libqservice.so:system/lib64/libqservice.so \
     vendor/amazon/sloane/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/amazon/sloane/proprietary/lib64/libstagefright_hdcprx.so:system/lib64/libstagefright_hdcprx.so \
     vendor/amazon/sloane/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/amazon/sloane/proprietary/lib64/libthermalservice.so:system/lib64/libthermalservice.so \
     vendor/amazon/sloane/proprietary/lib64/libtrapz.so:system/lib64/libtrapz.so \
+    vendor/amazon/sloane/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so \
     vendor/amazon/sloane/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:system/lib64/liburee_meta_drmkeyinstall_v2.so \
     vendor/amazon/sloane/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     vendor/amazon/sloane/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
     vendor/amazon/sloane/proprietary/lib64/libwlfAmzn.so:system/lib64/libwlfAmzn.so \
+    vendor/amazon/sloane/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so \
     vendor/amazon/sloane/proprietary/vendor/bin/pvrdebug:system/vendor/bin/pvrdebug \
     vendor/amazon/sloane/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/amazon/sloane/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
@@ -279,5 +292,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/vendor/lib64/libusc.so:system/vendor/lib64/libusc.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
-    vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/sloane/proprietary/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so:system/priv-app/AtvRemoteService/lib/arm/libatv_uinputbridge.so
+    vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz
