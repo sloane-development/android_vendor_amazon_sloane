@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/bin/kisd:system/bin/kisd \
     vendor/amazon/sloane/proprietary/bin/logcat_log.sh:system/bin/logcat_log.sh \
     vendor/amazon/sloane/proprietary/bin/meta_tst:system/bin/meta_tst \
-    vendor/amazon/sloane/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/amazon/sloane/proprietary/bin/mtee_logctrl:system/bin/mtee_logctrl \
     vendor/amazon/sloane/proprietary/bin/nandread:system/bin/nandread \
     vendor/amazon/sloane/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
