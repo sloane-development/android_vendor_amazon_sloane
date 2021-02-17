@@ -165,10 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/amazon/sloane/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
     vendor/amazon/sloane/proprietary/lib/libwlfAmzn.so:system/lib/libwlfAmzn.so \
-    vendor/amazon/sloane/proprietary/lib/modules/drop_monitor.ko:system/lib/modules/drop_monitor.ko \
-    vendor/amazon/sloane/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
-    vendor/amazon/sloane/proprietary/lib/modules/ozwpan.ko:system/lib/modules/ozwpan.ko \
-    vendor/amazon/sloane/proprietary/lib/modules/scsi_tgt.ko:system/lib/modules/scsi_tgt.ko \
     vendor/amazon/sloane/proprietary/lib64/hw/amazon_serial.mt8173.so:system/lib64/hw/amazon_serial.mt8173.so \
     vendor/amazon/sloane/proprietary/lib64/hw/amzn_dha.mt8173.so:system/lib64/hw/amzn_dha.mt8173.so \
     vendor/amazon/sloane/proprietary/lib64/hw/amzn_drmprov.mt8173.so:system/lib64/hw/amzn_drmprov.mt8173.so \
