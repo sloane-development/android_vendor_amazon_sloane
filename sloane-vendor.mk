@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/hw/perfboost.default.so:system/lib/hw/perfboost.default.so \
     vendor/amazon/sloane/proprietary/lib/hw/perfboost.mt8173.so:system/lib/hw/perfboost.mt8173.so \
     vendor/amazon/sloane/proprietary/lib/hw/thermal.mt8173.so:system/lib/hw/thermal.mt8173.so \
-    vendor/amazon/sloane/proprietary/lib/hw/tv_input.default.so:system/lib/hw/tv_input.default.so \
     vendor/amazon/sloane/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
     vendor/amazon/sloane/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/amazon/sloane/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
@@ -143,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/sloane/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/sloane/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
-    vendor/amazon/sloane/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
     vendor/amazon/sloane/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/amazon/sloane/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
@@ -178,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/hw/perfboost.default.so:system/lib64/hw/perfboost.default.so \
     vendor/amazon/sloane/proprietary/lib64/hw/perfboost.mt8173.so:system/lib64/hw/perfboost.mt8173.so \
     vendor/amazon/sloane/proprietary/lib64/hw/thermal.mt8173.so:system/lib64/hw/thermal.mt8173.so \
-    vendor/amazon/sloane/proprietary/lib64/hw/tv_input.default.so:system/lib64/hw/tv_input.default.so \
     vendor/amazon/sloane/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
     vendor/amazon/sloane/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
     vendor/amazon/sloane/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
@@ -222,7 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     vendor/amazon/sloane/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/amazon/sloane/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
-    vendor/amazon/sloane/proprietary/lib64/libnbaio.so:system/lib64/libnbaio.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
     vendor/amazon/sloane/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
