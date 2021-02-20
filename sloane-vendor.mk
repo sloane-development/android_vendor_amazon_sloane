@@ -283,4 +283,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/vendor/lib64/libusc.so:system/vendor/lib64/libusc.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/amazon/sloane/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
-    vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz
+    vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz \
+	vendor/amazon/sloane/proprietary/xbin/iwconfig:system/xbin/iwconfig \
+	vendor/amazon/sloane/proprietary/xbin/iwlist:system/xbin/iwlist \
+	vendor/amazon/sloane/proprietary/xbin/iwpriv:system/xbin/iwpriv
