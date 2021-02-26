@@ -20,12 +20,24 @@ ifneq ($(filter sloane,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdpframework
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libdpframework.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libdpframework.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libdpframework.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libdpframework.so
 LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Ds
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/vendor/app/Ds/Ds.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
