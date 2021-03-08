@@ -297,5 +297,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/xbin/trapz:system/xbin/trapz
 
 PRODUCT_PACKAGES += \
-    libdpframework \
-    Ds
+    libdpframework
