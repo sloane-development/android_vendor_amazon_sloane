@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/sloane/proprietary/bin/autobt:system/bin/autobt \
     vendor/amazon/sloane/proprietary/bin/devicetype_service:system/bin/devicetype_service \
     vendor/amazon/sloane/proprietary/bin/dmesg_log.sh:system/bin/dmesg_log.sh \
+    vendor/amazon/sloane/proprietary/bin/dhcpcd:system/bin/dhcpcd \
     vendor/amazon/sloane/proprietary/bin/dump-ramdump.sh:system/bin/dump-ramdump.sh \
     vendor/amazon/sloane/proprietary/bin/ext4_resize:system/bin/ext4_resize \
     vendor/amazon/sloane/proprietary/bin/guiext-server:system/bin/guiext-server \
